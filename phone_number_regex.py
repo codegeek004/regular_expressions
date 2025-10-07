@@ -19,9 +19,9 @@ contact = re.match(r'^\+91[\-\s]?[6-9]\d{4}[\-\s]?\d{5}$', number)
     -> Starts with +91 
     -> [\-\s]? --> Atmost one Space or dash 
     -> [6-9] --> one digit between 6 to 9
-    -> \d{4} --> next 3 digits
+    -> \d{4} --> next 4 digits
     -> [\-\s]? --> Atmost one Space or dash
-    -> \d{5} --> last 4 digits
+    -> \d{5} --> last 5 digits
     -> $ --> End of string
 
 """
