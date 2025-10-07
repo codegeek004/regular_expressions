@@ -44,7 +44,7 @@ def normalize(contact):
     elif re.fullmatch('[6-9]\d{9}', contact):
         return '+91' + contact  
     else:
-        return contact
+        return None 
 
 
 
