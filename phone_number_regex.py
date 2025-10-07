@@ -47,6 +47,21 @@ def normalize(contact):
         return None 
 
 
+## Vehicle Number validation
+
+"""
+reg_no = input("Enter Reg. No: ")
+
+match = re.match(r'[A-Z]{2}\d{2}[A-Z]{1,2}\d{4}', reg_no)
+if match is not None:
+    print('Reg. No is valid')
+else:
+    print('Not valid')
+"""
+
+
+
+
 
 """
     first character = smallcase a to k
